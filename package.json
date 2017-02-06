@@ -1,0 +1,70 @@
+{
+  "name": "react-native-lifx",
+  "description": "React native port of the node implementation of the LIFX protocol",
+  "version": "0.6.1",
+  "bugs": {
+    "url": "https://github.com/netbeast/react-native-lifx/issues"
+  },
+  "dependencies": {
+    "eventemitter3": "^1.1.0",
+    "lodash": "^4.5.0",
+    "os": "^0.1.1",
+    "react-native-udp": "^1.2.5",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.15",
+    "babel-preset-es2015": "^6.0.15",
+    "chai": "^3.0.0",
+    "codecov.io": "^0.1.6",
+    "eslint": "^2.13.1",
+    "istanbul": "^0.4.0",
+    "lolex": "^1.4.0",
+    "mocha": "^2.2.4"
+  },
+  "directories": {
+    "test": "test",
+    "lib": "lib",
+    "example": "example"
+  },
+  "homepage": "https://github.com/netbeast/react-native-lifx",
+  "keywords": [
+    "bulb",
+    "lifx",
+    "light",
+    "lightbulb"
+  ],
+  "license": "MIT",
+  "main": "./lib/lifx",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netbeast/react-native-lifx.git"
+  },
+  "scripts": {
+    "lint": "eslint lib/ test/ example/ cli.js",
+    "pretest": "npm run lint",
+    "test": "istanbul cover -root lib/ node_modules/mocha/bin/_mocha -- -u tdd -r babelhook --recursive test/unit/",
+    "report-coverage": "cat ./coverage/coverage.json | node_modules/codecov.io/bin/codecov.io.js"
+  },
+  "gitHead": "bd30a436cd4b5aa8a37b7ae05862880bc191a0be",
+  "_id": "node-lifx@0.6.0",
+  "_shasum": "449b2cf5416f8e75a3b43b157542768768b90bf9",
+  "_from": "node-lifx@>=0.6.0 <0.7.0",
+  "_npmVersion": "2.15.8",
+  "_nodeVersion": "4.4.7",
+  "_npmUser": {
+    "name": "mariusrumpf",
+    "email": "marius@mariusrumpf.de"
+  },
+  "dist": {
+    "shasum": "449b2cf5416f8e75a3b43b157542768768b90bf9",
+    "tarball": "https://registry.npmjs.org/node-lifx/-/node-lifx-0.6.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "netbeast",
+      "email": "staff@netbeast.co"
+    }
+  ]
+}
