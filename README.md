@@ -1,5 +1,7 @@
 # LIFX Node.js Library
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/netbeast/react-native-lifx.svg)](https://greenkeeper.io/)
+
 [![NPM Version](https://img.shields.io/npm/v/node-lifx.svg)](https://www.npmjs.com/package/node-lifx)
 [![Build Status](https://img.shields.io/travis/MariusRumpf/node-lifx/master.svg)](https://travis-ci.org/MariusRumpf/node-lifx)
 [![Build status](https://img.shields.io/appveyor/ci/MariusRumpf/node-lifx/master.svg)](https://ci.appveyor.com/project/MariusRumpf/node-lifx)
