@@ -5,7 +5,11 @@
   "bugs": {
     "url": "https://github.com/netbeast/react-native-lifx/issues"
   },
-  "dependencies": {
+  "peerDependencies": {
+    "lodash": ">=4.5.0",
+    "os": ">=0.1.1",
+    "react-native-udp": ">=2.0.0",
+    "util": ">=0.10.3"
   },
   "devDependencies": {
     "babel-core": "^6.0.15",
