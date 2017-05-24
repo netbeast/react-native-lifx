@@ -1,16 +1,11 @@
 {
   "name": "react-native-lifx",
   "description": "React native port of the node implementation of the LIFX protocol",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "bugs": {
     "url": "https://github.com/netbeast/react-native-lifx/issues"
   },
   "dependencies": {
-    "eventemitter3": "^1.1.0",
-    "lodash": "^4.5.0",
-    "os": "^0.1.1",
-    "react-native-udp": "^1.2.5",
-    "util": "^0.10.3"
   },
   "devDependencies": {
     "babel-core": "^6.0.15",
