@@ -1,7 +1,7 @@
 {
   "name": "react-native-lifx",
   "description": "React native port of the node implementation of the LIFX protocol",
-  "version": "0.6.8",
+  "version": "0.6.9",
   "bugs": {
     "url": "https://github.com/netbeast/react-native-lifx/issues"
   },
